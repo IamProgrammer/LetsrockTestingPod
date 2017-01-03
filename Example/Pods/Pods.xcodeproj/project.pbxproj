@@ -1,0 +1,685 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		162944CAED862CA375BC800F8FF90356 /* LetsrockTestingPod-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 9B81CB97DC5C066A0CCA2B4998E35A07 /* LetsrockTestingPod-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		302BC06114A9DFB6C34E1D5823B10105 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */; };
+		580A7B014E90D15C9A6897CA563890FE /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */; };
+		830EA1D78349333165F9EFA1E5A88CBF /* ReplaceMe.m in Sources */ = {isa = PBXBuildFile; fileRef = E5EAF50EFFC5B39ED9023458BE53EA2B /* ReplaceMe.m */; };
+		A4CC584E1639C1E949E6F6A11601A9F1 /* LetsrockTestingPod-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 581019445E3D6FAE69C28FB30974CE17 /* LetsrockTestingPod-dummy.m */; };
+		B7E0F5BF94F4DD0A4D688803F6AEBA16 /* Pods-LetsrockTestingPod_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = F3B45EB5E3DB243A2EB81B247DCACB5C /* Pods-LetsrockTestingPod_Tests-dummy.m */; };
+		C26A7A409D8C5DB2ED2DF8E83061C10F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */; };
+		D89F67A1E191A4E1A8A6EC820803636A /* Pods-LetsrockTestingPod_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 2B04031C0A3A2A3C5BDD3585446AFA2D /* Pods-LetsrockTestingPod_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		EEB7136955B960A859721E32BA2B1A0E /* Pods-LetsrockTestingPod_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 2BB43CB39DE6EC0B228FC68A6956779A /* Pods-LetsrockTestingPod_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FF40F08802E2044ED7B13AE8C2F3F19F /* Pods-LetsrockTestingPod_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = DF48D13A4C0C668994A89CDBB6A30AC4 /* Pods-LetsrockTestingPod_Example-dummy.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		9D98CA5118C33E2A2F579A89BC424EB7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BCB405DB5057CB13D51C95C37853BEB5;
+			remoteInfo = LetsrockTestingPod;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		06FE8B6E1FA654E9FD3B236E45CA31B9 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		16F2509CFC8A5C735EF8B5E6980B5479 /* Pods-LetsrockTestingPod_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-LetsrockTestingPod_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		1BD4EC674400D57DC9FCD243AA8EC448 /* LetsrockTestingPod.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = LetsrockTestingPod.xcconfig; sourceTree = "<group>"; };
+		297440CCDFFC3EC166AAA6C8EC2DDBC6 /* Pods-LetsrockTestingPod_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-LetsrockTestingPod_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		2B04031C0A3A2A3C5BDD3585446AFA2D /* Pods-LetsrockTestingPod_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-LetsrockTestingPod_Example-umbrella.h"; sourceTree = "<group>"; };
+		2BB43CB39DE6EC0B228FC68A6956779A /* Pods-LetsrockTestingPod_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-LetsrockTestingPod_Tests-umbrella.h"; sourceTree = "<group>"; };
+		3829DCD81F8B97654D01A3F2304B6F99 /* LetsrockTestingPod.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = LetsrockTestingPod.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		42705BC40F5B46BB8F104F1077E50D70 /* Pods-LetsrockTestingPod_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-LetsrockTestingPod_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		493BCFE33044F01BB4191E4059BC18D3 /* Pods-LetsrockTestingPod_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-LetsrockTestingPod_Tests.modulemap"; sourceTree = "<group>"; };
+		581019445E3D6FAE69C28FB30974CE17 /* LetsrockTestingPod-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "LetsrockTestingPod-dummy.m"; sourceTree = "<group>"; };
+		63D728AED7397B5151FB206228843EDD /* Pods-LetsrockTestingPod_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-LetsrockTestingPod_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		6D5EE544C443F9A33C8288BBB04DD64A /* Pods-LetsrockTestingPod_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-LetsrockTestingPod_Tests-resources.sh"; sourceTree = "<group>"; };
+		767C280C1CB1332C864718D7A4D52E02 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		776333610162807693430B384263CE62 /* LetsrockTestingPod.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = LetsrockTestingPod.modulemap; sourceTree = "<group>"; };
+		77DA9CCBB9496A8FC33747129C418258 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7A8FFC58E4A869CB4A9238A445A496BB /* Pods_LetsrockTestingPod_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LetsrockTestingPod_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		90FCF7F0D7FEA828CBBECDA9F4940F1F /* Pods-LetsrockTestingPod_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-LetsrockTestingPod_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9B81CB97DC5C066A0CCA2B4998E35A07 /* LetsrockTestingPod-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "LetsrockTestingPod-umbrella.h"; sourceTree = "<group>"; };
+		A1E6DC02D5B9CD51AED05619B52AFE2F /* LetsrockTestingPod-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "LetsrockTestingPod-prefix.pch"; sourceTree = "<group>"; };
+		AA3FAF16BA17DF815A43B6498584358C /* Pods-LetsrockTestingPod_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-LetsrockTestingPod_Example.modulemap"; sourceTree = "<group>"; };
+		ABA0FBD9446B83A018723F3493FC875D /* Pods-LetsrockTestingPod_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-LetsrockTestingPod_Example-frameworks.sh"; sourceTree = "<group>"; };
+		B71484134F82B8AA724CC37FB55A706A /* Pods-LetsrockTestingPod_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-LetsrockTestingPod_Tests-frameworks.sh"; sourceTree = "<group>"; };
+		CBC7655ADE5427DCD3A442C10250BB39 /* Pods-LetsrockTestingPod_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-LetsrockTestingPod_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		D9222012BD35BE24C403D31486693AF0 /* Pods-LetsrockTestingPod_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-LetsrockTestingPod_Example.release.xcconfig"; sourceTree = "<group>"; };
+		DF48D13A4C0C668994A89CDBB6A30AC4 /* Pods-LetsrockTestingPod_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-LetsrockTestingPod_Example-dummy.m"; sourceTree = "<group>"; };
+		E38CE58FD9226D9FD727FA217BC498B6 /* Pods-LetsrockTestingPod_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-LetsrockTestingPod_Example-resources.sh"; sourceTree = "<group>"; };
+		E5EAF50EFFC5B39ED9023458BE53EA2B /* ReplaceMe.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = ReplaceMe.m; sourceTree = "<group>"; };
+		ED82ED174CC97AA73240C808E73EF52F /* Pods-LetsrockTestingPod_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-LetsrockTestingPod_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		F3B45EB5E3DB243A2EB81B247DCACB5C /* Pods-LetsrockTestingPod_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-LetsrockTestingPod_Tests-dummy.m"; sourceTree = "<group>"; };
+		F6FCB305C8337DB9ED98795844066B79 /* Pods_LetsrockTestingPod_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LetsrockTestingPod_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7708AFF0B424FCC95C6108DC8DB6D7A0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				302BC06114A9DFB6C34E1D5823B10105 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8AB52160B6E899DE329B91522E454B33 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C26A7A409D8C5DB2ED2DF8E83061C10F /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B6033069DC465AAF3DDD35066721005D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				580A7B014E90D15C9A6897CA563890FE /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0EA654525383FDF8A6431A2B485F2960 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3829DCD81F8B97654D01A3F2304B6F99 /* LetsrockTestingPod.framework */,
+				F6FCB305C8337DB9ED98795844066B79 /* Pods_LetsrockTestingPod_Example.framework */,
+				7A8FFC58E4A869CB4A9238A445A496BB /* Pods_LetsrockTestingPod_Tests.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		19EBFB1FFB33CEFA4C95E9B594DE7056 /* LetsrockTestingPod */ = {
+			isa = PBXGroup;
+			children = (
+				6E541D736E90131C8C63AB9E205508BF /* Classes */,
+			);
+			path = LetsrockTestingPod;
+			sourceTree = "<group>";
+		};
+		34046EB37EFFA40257D60CE5BE69BFC4 /* Pods-LetsrockTestingPod_Example */ = {
+			isa = PBXGroup;
+			children = (
+				767C280C1CB1332C864718D7A4D52E02 /* Info.plist */,
+				AA3FAF16BA17DF815A43B6498584358C /* Pods-LetsrockTestingPod_Example.modulemap */,
+				63D728AED7397B5151FB206228843EDD /* Pods-LetsrockTestingPod_Example-acknowledgements.markdown */,
+				CBC7655ADE5427DCD3A442C10250BB39 /* Pods-LetsrockTestingPod_Example-acknowledgements.plist */,
+				DF48D13A4C0C668994A89CDBB6A30AC4 /* Pods-LetsrockTestingPod_Example-dummy.m */,
+				ABA0FBD9446B83A018723F3493FC875D /* Pods-LetsrockTestingPod_Example-frameworks.sh */,
+				E38CE58FD9226D9FD727FA217BC498B6 /* Pods-LetsrockTestingPod_Example-resources.sh */,
+				2B04031C0A3A2A3C5BDD3585446AFA2D /* Pods-LetsrockTestingPod_Example-umbrella.h */,
+				297440CCDFFC3EC166AAA6C8EC2DDBC6 /* Pods-LetsrockTestingPod_Example.debug.xcconfig */,
+				D9222012BD35BE24C403D31486693AF0 /* Pods-LetsrockTestingPod_Example.release.xcconfig */,
+			);
+			name = "Pods-LetsrockTestingPod_Example";
+			path = "Target Support Files/Pods-LetsrockTestingPod_Example";
+			sourceTree = "<group>";
+		};
+		3DCAB2B7CDE207B3958B6CB957FCC758 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		6E541D736E90131C8C63AB9E205508BF /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				E5EAF50EFFC5B39ED9023458BE53EA2B /* ReplaceMe.m */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				AD95FE3E4AEF2A570534AEC06D8645D3 /* Development Pods */,
+				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				0EA654525383FDF8A6431A2B485F2960 /* Products */,
+				C975C2C009337CD5A09897FB3339DD89 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		AD95FE3E4AEF2A570534AEC06D8645D3 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				E0079E3D7B69D2EEAC7BBC013643CE4E /* LetsrockTestingPod */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3DCAB2B7CDE207B3958B6CB957FCC758 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C975C2C009337CD5A09897FB3339DD89 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				34046EB37EFFA40257D60CE5BE69BFC4 /* Pods-LetsrockTestingPod_Example */,
+				FE5C0AC82E784E0B8EE3FF588D3A5044 /* Pods-LetsrockTestingPod_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		E0079E3D7B69D2EEAC7BBC013643CE4E /* LetsrockTestingPod */ = {
+			isa = PBXGroup;
+			children = (
+				19EBFB1FFB33CEFA4C95E9B594DE7056 /* LetsrockTestingPod */,
+				E90CCC164CA040ED7627365DE050CA72 /* Support Files */,
+			);
+			name = LetsrockTestingPod;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		E90CCC164CA040ED7627365DE050CA72 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				77DA9CCBB9496A8FC33747129C418258 /* Info.plist */,
+				776333610162807693430B384263CE62 /* LetsrockTestingPod.modulemap */,
+				1BD4EC674400D57DC9FCD243AA8EC448 /* LetsrockTestingPod.xcconfig */,
+				581019445E3D6FAE69C28FB30974CE17 /* LetsrockTestingPod-dummy.m */,
+				A1E6DC02D5B9CD51AED05619B52AFE2F /* LetsrockTestingPod-prefix.pch */,
+				9B81CB97DC5C066A0CCA2B4998E35A07 /* LetsrockTestingPod-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/LetsrockTestingPod";
+			sourceTree = "<group>";
+		};
+		FE5C0AC82E784E0B8EE3FF588D3A5044 /* Pods-LetsrockTestingPod_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				06FE8B6E1FA654E9FD3B236E45CA31B9 /* Info.plist */,
+				493BCFE33044F01BB4191E4059BC18D3 /* Pods-LetsrockTestingPod_Tests.modulemap */,
+				ED82ED174CC97AA73240C808E73EF52F /* Pods-LetsrockTestingPod_Tests-acknowledgements.markdown */,
+				42705BC40F5B46BB8F104F1077E50D70 /* Pods-LetsrockTestingPod_Tests-acknowledgements.plist */,
+				F3B45EB5E3DB243A2EB81B247DCACB5C /* Pods-LetsrockTestingPod_Tests-dummy.m */,
+				B71484134F82B8AA724CC37FB55A706A /* Pods-LetsrockTestingPod_Tests-frameworks.sh */,
+				6D5EE544C443F9A33C8288BBB04DD64A /* Pods-LetsrockTestingPod_Tests-resources.sh */,
+				2BB43CB39DE6EC0B228FC68A6956779A /* Pods-LetsrockTestingPod_Tests-umbrella.h */,
+				16F2509CFC8A5C735EF8B5E6980B5479 /* Pods-LetsrockTestingPod_Tests.debug.xcconfig */,
+				90FCF7F0D7FEA828CBBECDA9F4940F1F /* Pods-LetsrockTestingPod_Tests.release.xcconfig */,
+			);
+			name = "Pods-LetsrockTestingPod_Tests";
+			path = "Target Support Files/Pods-LetsrockTestingPod_Tests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		86CCD470A6F879C612B84F39C913C41D /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				162944CAED862CA375BC800F8FF90356 /* LetsrockTestingPod-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8CA7E3BB625940D6BA94D73B2DF23B30 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D89F67A1E191A4E1A8A6EC820803636A /* Pods-LetsrockTestingPod_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FD1ED6C1CE9BE8891A56E2B947E7689D /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EEB7136955B960A859721E32BA2B1A0E /* Pods-LetsrockTestingPod_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		0E17CCC2085702BCD84FCE1B3130F2CA /* Pods-LetsrockTestingPod_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 539DF728679BB42B554F247BE3931373 /* Build configuration list for PBXNativeTarget "Pods-LetsrockTestingPod_Tests" */;
+			buildPhases = (
+				6C797FDA4D979012DF21D5E9BAD7F026 /* Sources */,
+				B6033069DC465AAF3DDD35066721005D /* Frameworks */,
+				FD1ED6C1CE9BE8891A56E2B947E7689D /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-LetsrockTestingPod_Tests";
+			productName = "Pods-LetsrockTestingPod_Tests";
+			productReference = 7A8FFC58E4A869CB4A9238A445A496BB /* Pods_LetsrockTestingPod_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		A9A71F845982FA698CE8DC84795C2E63 /* Pods-LetsrockTestingPod_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B4E61DF4BD04540D52054B44234316B0 /* Build configuration list for PBXNativeTarget "Pods-LetsrockTestingPod_Example" */;
+			buildPhases = (
+				210E49CC91A0B51B0D973F15987DA397 /* Sources */,
+				7708AFF0B424FCC95C6108DC8DB6D7A0 /* Frameworks */,
+				8CA7E3BB625940D6BA94D73B2DF23B30 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				ABD67B68BBD9D4966668CD0BAA3DCB82 /* PBXTargetDependency */,
+			);
+			name = "Pods-LetsrockTestingPod_Example";
+			productName = "Pods-LetsrockTestingPod_Example";
+			productReference = F6FCB305C8337DB9ED98795844066B79 /* Pods_LetsrockTestingPod_Example.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		BCB405DB5057CB13D51C95C37853BEB5 /* LetsrockTestingPod */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F5C72592DF666B4D89F6FC262BC91E49 /* Build configuration list for PBXNativeTarget "LetsrockTestingPod" */;
+			buildPhases = (
+				FBEEBAB8E82BBEAE163AE46E04EEF787 /* Sources */,
+				8AB52160B6E899DE329B91522E454B33 /* Frameworks */,
+				86CCD470A6F879C612B84F39C913C41D /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LetsrockTestingPod;
+			productName = LetsrockTestingPod;
+			productReference = 3829DCD81F8B97654D01A3F2304B6F99 /* LetsrockTestingPod.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = 0EA654525383FDF8A6431A2B485F2960 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BCB405DB5057CB13D51C95C37853BEB5 /* LetsrockTestingPod */,
+				A9A71F845982FA698CE8DC84795C2E63 /* Pods-LetsrockTestingPod_Example */,
+				0E17CCC2085702BCD84FCE1B3130F2CA /* Pods-LetsrockTestingPod_Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		210E49CC91A0B51B0D973F15987DA397 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FF40F08802E2044ED7B13AE8C2F3F19F /* Pods-LetsrockTestingPod_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6C797FDA4D979012DF21D5E9BAD7F026 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B7E0F5BF94F4DD0A4D688803F6AEBA16 /* Pods-LetsrockTestingPod_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FBEEBAB8E82BBEAE163AE46E04EEF787 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A4CC584E1639C1E949E6F6A11601A9F1 /* LetsrockTestingPod-dummy.m in Sources */,
+				830EA1D78349333165F9EFA1E5A88CBF /* ReplaceMe.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		ABD67B68BBD9D4966668CD0BAA3DCB82 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = LetsrockTestingPod;
+			target = BCB405DB5057CB13D51C95C37853BEB5 /* LetsrockTestingPod */;
+			targetProxy = 9D98CA5118C33E2A2F579A89BC424EB7 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		0ACDCBCB0B6796575F46FFA2F5410C6B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9311DAF689E93E773AAA30AF0EEB0074 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 297440CCDFFC3EC166AAA6C8EC2DDBC6 /* Pods-LetsrockTestingPod_Example.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-LetsrockTestingPod_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-LetsrockTestingPod_Example/Pods-LetsrockTestingPod_Example.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_LetsrockTestingPod_Example;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		A16042B1826F998A22A920994CD7FC13 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1BD4EC674400D57DC9FCD243AA8EC448 /* LetsrockTestingPod.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/LetsrockTestingPod/LetsrockTestingPod-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/LetsrockTestingPod/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/LetsrockTestingPod/LetsrockTestingPod.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = LetsrockTestingPod;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		A83038519B1DC366D368788BC07DF8D3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 16F2509CFC8A5C735EF8B5E6980B5479 /* Pods-LetsrockTestingPod_Tests.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-LetsrockTestingPod_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-LetsrockTestingPod_Tests/Pods-LetsrockTestingPod_Tests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_LetsrockTestingPod_Tests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		C0043C1DC343D20BD222C9C68E0892B4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 90FCF7F0D7FEA828CBBECDA9F4940F1F /* Pods-LetsrockTestingPod_Tests.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-LetsrockTestingPod_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-LetsrockTestingPod_Tests/Pods-LetsrockTestingPod_Tests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_LetsrockTestingPod_Tests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		D3E3D092A3FF7311A98E44BBA36FFD12 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				ONLY_ACTIVE_ARCH = YES;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		DBB7D6D977CD368FF88E5B7C820CC977 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D9222012BD35BE24C403D31486693AF0 /* Pods-LetsrockTestingPod_Example.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-LetsrockTestingPod_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-LetsrockTestingPod_Example/Pods-LetsrockTestingPod_Example.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_LetsrockTestingPod_Example;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		DD1798E5247955B4C7ED1DA7325BF5D7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1BD4EC674400D57DC9FCD243AA8EC448 /* LetsrockTestingPod.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/LetsrockTestingPod/LetsrockTestingPod-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/LetsrockTestingPod/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/LetsrockTestingPod/LetsrockTestingPod.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = LetsrockTestingPod;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D3E3D092A3FF7311A98E44BBA36FFD12 /* Debug */,
+				0ACDCBCB0B6796575F46FFA2F5410C6B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		539DF728679BB42B554F247BE3931373 /* Build configuration list for PBXNativeTarget "Pods-LetsrockTestingPod_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A83038519B1DC366D368788BC07DF8D3 /* Debug */,
+				C0043C1DC343D20BD222C9C68E0892B4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B4E61DF4BD04540D52054B44234316B0 /* Build configuration list for PBXNativeTarget "Pods-LetsrockTestingPod_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9311DAF689E93E773AAA30AF0EEB0074 /* Debug */,
+				DBB7D6D977CD368FF88E5B7C820CC977 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F5C72592DF666B4D89F6FC262BC91E49 /* Build configuration list for PBXNativeTarget "LetsrockTestingPod" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DD1798E5247955B4C7ED1DA7325BF5D7 /* Debug */,
+				A16042B1826F998A22A920994CD7FC13 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}

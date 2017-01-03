@@ -1,0 +1,16 @@
+PODS:
+  - LetsrockTestingPod (0.1.0)
+
+DEPENDENCIES:
+  - LetsrockTestingPod (from `../`)
+
+EXTERNAL SOURCES:
+  LetsrockTestingPod:
+    :path: ../
+
+SPEC CHECKSUMS:
+  LetsrockTestingPod: d5e7dfeebd8ac06e7e69114641e0a5aa4c830f44
+
+PODFILE CHECKSUM: 0be9c313577e0bf52cae96dde44481e81ea47063
+
+COCOAPODS: 1.0.1
